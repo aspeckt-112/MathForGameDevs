@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1672120-BF20-4C9F-81AB-3B1118EE9BB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1F9CE314-91C6-415A-8CA7-BC440C11D2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "src\MathLib\MathLib.csproj", "{2558DC91-1F8D-43B0-812E-C88013AB7467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib.Tests", "tests\MathLib.Tests\MathLib.Tests.csproj", "{4ED65890-02C6-47DB-8B2E-27983B89B29F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2558DC91-1F8D-43B0-812E-C88013AB7467} = {C1672120-BF20-4C9F-81AB-3B1118EE9BB1}
+		{4ED65890-02C6-47DB-8B2E-27983B89B29F} = {1F9CE314-91C6-415A-8CA7-BC440C11D2DE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2558DC91-1F8D-43B0-812E-C88013AB7467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2558DC91-1F8D-43B0-812E-C88013AB7467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2558DC91-1F8D-43B0-812E-C88013AB7467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2558DC91-1F8D-43B0-812E-C88013AB7467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED65890-02C6-47DB-8B2E-27983B89B29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED65890-02C6-47DB-8B2E-27983B89B29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED65890-02C6-47DB-8B2E-27983B89B29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED65890-02C6-47DB-8B2E-27983B89B29F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
